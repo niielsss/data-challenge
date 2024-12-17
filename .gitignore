@@ -3,6 +3,8 @@
 
 # Model outputs
 /notebooks/checkpoints
+/notebooks/GAN_checkpoints
+/notebooks/GAN_checkpoints_10_epochs
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

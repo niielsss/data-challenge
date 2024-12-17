@@ -58,7 +58,8 @@ class LazyImageLoader:
         Returns:
             tuple: Two lists, filesA and filesB, containing the file paths.
         """
-        sub_dirs = ['underwater_imagenet', 'underwater_dark', 'underwater_scenes']
+        #sub_dirs = ['underwater_imagenet', 'underwater_dark', 'underwater_scenes']
+        sub_dirs = ['underwater_imagenet', 'underwater_dark']
         filesA, filesB = [], []
 
         for sub_dir in sub_dirs:

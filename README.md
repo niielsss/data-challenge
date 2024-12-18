@@ -24,6 +24,7 @@ The project will use the **EUVP (Enhancing Underwater Visual Perception)** datas
 To enhance the images, the project will use the following techniques:
 
 - **Deconvolution**: This technique will help address blurriness caused by light scattering and other distortions that are common in underwater images.
+- **GAN**: This technique will train two networks—a generator that creates data and a discriminator that evaluates it—to compete against each other, helping the generator produce increasingly realistic outputs.
 - **Super-resolution**: This method will generate higher-resolution images from lower-resolution inputs, improving the clarity and detail of the images.
 - **Custom Convolutional Neural Networks (CNNs)**: These networks will be specifically designed to handle features unique to underwater images, such as color distortions and low contrast.
 
